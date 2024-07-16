@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="assets\css\style.css">
+  <link rel="shortcut icon" href="assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets\img\hanan.jpg" alt="Johanan Zuniega" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Johanan Zuniega">Johanan Zuniega</h1>
+
+          <p class="title"> Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:johananzuniega@gmail.com" target="_blank" class="contact-link">johananzuniega@gmail.com</a>
+              <p class="contact-title">Facebook</p>
+
+              <a href="https://www.facebook.com/gwapo.bright?mibextid=ZbWKwL" target="_blank"class="contact-link">Johanan Zuniega</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a class="contact-link">09773836022</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 14, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tabon, Dalaguete, Cebu </address>
+            </div>
+
+          </li>
+
+        </ul>
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Support</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Report</button>
+          </li>
+        </ul>
+
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a computer engieering student who is seeking for a better oppurtunities in developing my skills in any field. Seeking an entry level 
+            position to begin with in a high level professional career.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm capable of</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/img/code.png " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  Proficiency in programming languages like C, Java, etc.,
+                  for software development and system integration.
+
+
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/img/fix.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hardware Design and Development:</h4>
+
+                <p class="service-item-text">
+                  Understanding of computer architecture, digital electronics, 
+                  and hardware components for designing and optimizing computer systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/img/web.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Development</h4>
+
+                <p class="service-item-text">
+                  Knowledge of software engineering principles, algorithms, data structures, 
+                  and software development lifecycle for creating robust and scalable applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/img/network.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Networking</h4>
+
+                <p class="service-item-text">
+                  Understanding of network protocols, configurations, and security practices
+                  for designing and maintaining computer networks.
+
+
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <!-- Button function -->
+
+        </section>
+        <div class="model-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-model">
+
+            <button class="model-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+          </section>
+
+        </div>
+
+        <!-- SKILLS -->
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming</h5>
+                <data value="80">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Hardware Design and Development</h5>
+                <data value="70">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Software Development</h5>
+                <data value="90">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Networking</h5>
+                <data value="95">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        
+
+      </article> 
+      <!--
+        - #Support
+      -->
+
+      <article class="support" data-page="support">
+
+        <header>
+          <h2 class="h2 article-title">certifications and <br>
+             Diploma</h2>
+        </header>
+
+        <section class="Certificate">
+          <ul class="certificate-list">
+
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1XxesUh-jXa-QhzCs-CPVJSDP8JgVrsCm/view?usp=sharing" 
+                  target="_blank"class="contact-link">Director list award in Center for Industrial technology
+                  and Enterprise (December 16, 2022)</a>
+
+                </h4>
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1YbgaS45KOfMoMQuJV75gYwg2HmEZT5P1/view?usp=sharing" 
+                  target="_blank"class="contact-link">Awarded for certficate of Recognition for achieving a 
+                  perfect in attendance (December 16,2022)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1YbgaS45KOfMoMQuJV75gYwg2HmEZT5P1/view?usp=sharing" 
+                  target="_blank"class="contact-link">National Certificate 2 in Electronic Product Assembly and 
+                  Servicing (September 2,2022)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1Y0f6FocJkwR5wrjtNg1FGOOClNANqQUv/view?usp=sharing" 
+                  target="_blank"class="contact-link">National Certificate 2 in Computer System 
+                  Servicing (September 17,2022)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1Y7BT879MDSnEmobI0cZPbmm52lFXdCnp/view?usp=sharing" 
+                  target="_blank"class="contact-link">Certificate of Completion of Student 
+                  Trainee at Crimson Resort and Spa, Mactan (June 7,2024)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1YTcLVjjWJ-Jn80ITQMqfTLF7wFY-jov-/view?usp=sharing" 
+                  target="_blank"class="contact-link">Certificate of Completion for Practicing COVID-19 
+                  Preventive Measure in the workplace. (November 14,2021)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1Y9Azie1Aal-NZMAgZXuAEWsoV-fAmUUK/view?usp=sharing" 
+                  target="_blank"class="contact-link">Certificate of Achievement for Assemble Computer 
+                  Hardware of Computer System Servicing(March 25,2022)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <li class="certificate-item">
+  
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1Ydt79eeeY64JDmbeNycFZLo68eNQI4O3/view?usp=sharing" 
+                  target="_blank"class="contact-link">Diploma in Academic Track-Prebacc Strand in UC-METC(July,2021)</a>
+
+                </h4>
+  
+  
+              </div>
+  
+            </li>
+            <section class="Resume">
+
+              <h3 class="h3 resume-title">Resume</h3>
+    
+              <ul class="resume-list content-card">
+                <li class="certificate-item">
+  
+                  <div class="certificate-content-box">
+                    <h4 class="contact-info">
+                      <a href="https://drive.google.com/file/d/1NDB_23TEVQmlOjckWJQIbzEBBoEEPjz-/view?usp=sharing" 
+                      target="_blank"class="contact-link">My Resume</a>
+    
+                    </h4>
+      
+                  </div>
+                </li>    
+              </ul>
+            </section>
+
+
+          </ul>
+
+        </section>
+      </article>
+      <!--
+        - #Report
+      -->
+
+      <article class="report" data-page="report">
+
+        <header>
+          <h2 class="h2 article-title">Report</h2>
+        </header>
+          <!-- Accomplishment -->
+        <section class="report">
+          <ul class="report-list content-card">
+            <li class="certificate-item">
+
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://drive.google.com/file/d/1QD70noKT3CrY1glxfycq5Mr5sDV23CCT/view?usp=sharing" 
+                  target="_blank"class="contact-link">My Accomplishment Report</a>
+
+                </h4>
+  
+              </div>
+            </li>    
+          </ul>
+          <!-- DAS -->
+          <ul class="report-list content-card">
+            <li class="certificate-item">
+
+              <div class="certificate-content-box">
+                <h4 class="contact-info">
+                  <a href="https://docs.google.com/spreadsheets/d/10vytR5qEO8B2GAz91QiYJBwsdoZea8aLxmq2M4SOgw0/edit?usp=sharing" 
+                  target="_blank"class="contact-link">Daily Attendance Sheet</a>
+
+                </h4>
+  
+              </div>
+            </li>    
+          </ul>
+          <!-- Report Responsive -->
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          
+
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+  <!-- - custom js link -->
+  <script src="assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
